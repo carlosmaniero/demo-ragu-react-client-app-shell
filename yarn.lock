@@ -8865,6 +8865,19 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+ragu-client-react@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ragu-client-react/-/ragu-client-react-0.0.2.tgz#cbad6eb26814a59696c59436f4fde539c5d06127"
+  integrity sha512-JLDS2Fe07SHC2PUZ/bQ9+tH7MsetdWsWA3Ri5GIE2Ez2AczpZb56IRsig4Ty9kGjEGl/EO03kwfkC6hGBlL9Bg==
+  dependencies:
+    ragu-dom "^0.0.59"
+    react "^17.0.0"
+
+ragu-dom@^0.0.59:
+  version "0.0.59"
+  resolved "https://registry.yarnpkg.com/ragu-dom/-/ragu-dom-0.0.59.tgz#684216759547d10ffc08366ef7eb7a7736473491"
+  integrity sha512-/8nbpn4g5zKBjMeSTHvE8neXysniDjPGkjXXjw4F3NBTPEgUQn5AqFz9R6QTVELmXVPV3hKx7Sf6YIYlGgLI4A==
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -9032,7 +9045,7 @@ react-scripts@4.0.3:
   optionalDependencies:
     fsevents "^2.1.3"
 
-react@^17.0.1:
+react@^17.0.0, react@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
