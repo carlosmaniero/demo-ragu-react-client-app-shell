@@ -1,5 +1,6 @@
 {
   "name": "demo-ragu-react-client-app-shell",
+  "homepage": "https://carlosmaniero.github.io/demo-ragu-react-client-app-shell/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
